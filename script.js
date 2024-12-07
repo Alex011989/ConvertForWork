@@ -94,6 +94,7 @@ for (let i = 0; i <= 34; i++) {
   
     if (tipoConversione === 'toTonnellate') {
       risultato = valore * K * densita;
+      risultato = Math.round(risultato);
       risultatoDiv.textContent = `${valore.toLocaleString()} mm equivalgono a ${risultato.toLocaleString()} kg.`;
     } else if (tipoConversione === 'toMillimetri') {
       risultato = valore / (K * densita);
