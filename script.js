@@ -97,6 +97,7 @@ for (let i = 0; i <= 34; i++) {
       risultatoDiv.textContent = `${valore.toLocaleString()} mm equivalgono a ${risultato.toLocaleString()} kg.`;
     } else if (tipoConversione === 'toMillimetri') {
       risultato = valore / (K * densita);
+      risultato = Math.round(risultato);
       risultatoDiv.textContent = `${valore.toLocaleString()} kg equivalgono a ${risultato.toLocaleString()} mm.`;
     }
   };
