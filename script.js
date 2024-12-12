@@ -135,5 +135,5 @@ const infoButton = document.getElementById('info-icon');
 
 // Aggiungi l'evento click
 infoButton.addEventListener('click', () => {
-  alert('Se sei così idiota da aver bisogno di spiegazioni chiedi a Ceraso');
+  alert('Per qualunque informazione chiedere a Ceraso');
 });
